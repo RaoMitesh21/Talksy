@@ -1,0 +1,65 @@
+# Sensitive configuration files
+public/db_config.php
+public/email_config.php
+frontend/src/config.js
+
+# Environment files
+.env
+.env.local
+
+# Dependencies
+node_modules/
+vendor/
+frontend/node_modules/
+
+# Build outputs
+frontend/build/
+frontend/dist/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Database
+*.sql
+*.db
+*.sqlite
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+chat_files/*
+!chat_files/.gitkeep
+snaps/*
+!snaps/.gitkeep
+
+# Test files
+test_*.php
+test_*.html
+*_test.php
+*_test.html
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Composer
+composer.phar
+composer.lock
+
+# Package manager
+package-lock.json
+yarn.lock

@@ -1,0 +1,22 @@
+{
+    "name": "miteshrao/talksy",
+    "description": "Talksy chat app",
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Miteshrao\\Talksy\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mitesh Rao",
+            "email": "raomitesh12@gmail.com"
+        }
+    ],
+    "require": {
+        "cboden/ratchet": "^0.4.4",
+        "google/apiclient": "^2.0",
+        "phpmailer/phpmailer": "^6.10"
+    }
+}
